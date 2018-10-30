@@ -55,8 +55,10 @@
             android:label="@string/title_activity_time" >
         </activity>
         <activity
-            android:name=".CameraActivity"
-            android:label="@string/title_activity_camera" >
+            android:name=".CameraActivity" 
+            android:label="@string/title_activity_camera"
+            android:theme="@android:style/Theme.Black.NoTitleBar">
+
         </activity>
         <activity
             android:name=".DisplayActivity"
